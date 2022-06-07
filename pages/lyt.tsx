@@ -1,5 +1,4 @@
 import Container from "../components/Container"
-import CookieConsent from "react-cookie-consent"
 
 export default function Lyt({ lyt }) {
   return (
