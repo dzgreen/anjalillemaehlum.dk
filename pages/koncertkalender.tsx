@@ -17,6 +17,7 @@ export default function Koncertkalender({ koncertkalender }) {
               <a
                 href="https://bornholmskulturuge.dk/om-kulturugen/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Bornholms Kulturuge
               </a>
@@ -32,6 +33,7 @@ export default function Koncertkalender({ koncertkalender }) {
               <a
                 href="https://drkoncerthuset.dk/event/langt-ud-i-skoven/"
                 target="_blank"
+                rel="noreferrer"
               >
                 DR koncerthuset
               </a>

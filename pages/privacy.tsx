@@ -9,7 +9,10 @@ export default function Privatlivspolitik({ privatlivspolitik }) {
         </h1>
 
         <div className="prose mb-8 max-w-none leading-6 text-gray-600 ">
-          <p>Intet behov for cookies på denne hjemmeside 🍪.</p>
+          <p>
+            Trykker du på youtube videone under lyt, siger du også ja til
+            youtube-cookies. 🍪.
+          </p>
         </div>
       </div>
     </Container>

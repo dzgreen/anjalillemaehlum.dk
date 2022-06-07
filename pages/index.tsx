@@ -21,8 +21,8 @@ export default function Home({ home }) {
             <figure>
               <blockquote>
                 Sammenspillet med pianisten Kati Arikoski var blændende og
-                suverænt. [...] Detbutkoncertens overskrift hed "Den stille
-                røst". I programmet beskriver Anja Lillemæhlum den filosofiske
+                suverænt. [...] Detbutkoncertens overskrift hed i Den stille
+                røst. I programmet beskriver Anja Lillemæhlum den filosofiske
                 baggrund for titlen - i praksis som koncerten formede sig, var
                 det en myndig røst, som jeg vil glæde mig til at høre igen.
               </blockquote>
@@ -61,7 +61,7 @@ export default function Home({ home }) {
           </p>
           <p className="text-gray-600 ">
             I 2022 spillede Anja, sammen med Dreamers Cirkus og DR s børnekor,
-            til koncerten, Langt ud´i skoven. Støttet af Slots - og
+            til koncerten, Langt ud i skoven. Støttet af Slots - og
             Kulturstyrelsen turnerede hun og organisten Anders Forsberg Svendsen
             med et klassisk program for orgel/klaver og cello, sensommeren 2021.
             I 2020 udgav hun sit første Album med egne meditative kompositioner:

@@ -45,6 +45,7 @@ export default function Kontakt({ contakt }) {
             <div className="w-3/5">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.facebook.com/Anja-Lillem%C3%A6hlum-111105941342837"
               >
                 Anja Lillemæhlum
