@@ -6,8 +6,6 @@ import NextLink from "next/link"
 import cn from "classnames"
 import Footer from "components/Footer"
 import MobileMenu from "components/MobileMenu"
-import { Facebook } from "react-feather"
-// import { Youtube } from "react-feather"
 
 function NavItem({ href, text }) {
   const router = useRouter()
