@@ -1,5 +1,8 @@
 import Container from "../components/Container"
 import Obfuscate from "react-obfuscate"
+import Image from "next/image"
+// import kontakt from "../public/kontakt.webp"
+import test from "../public/test.jpg"
 
 export default function Kontakt({ contakt }) {
   return (
@@ -15,7 +18,7 @@ export default function Kontakt({ contakt }) {
           </p>
         </div> */}
 
-        <div className="flex w-full flex-col space-y-2">
+        <div className="flex w-full flex-col space-y-2 pb-4">
           <div className="flex w-full text-gray-600 ">
             <div className="w-2/5 text-gray-300 md:w-1/5">Mobil:</div>
             <div className="w-3/5">+45 28898891</div>
@@ -53,7 +56,14 @@ export default function Kontakt({ contakt }) {
             </div>
           </div>
         </div>
-
+        <div className="">
+          <Image
+            src={test}
+            alt="Picture of the author"
+            className="rounded-md"
+            priority
+          />
+        </div>
         <span className="h-16" />
       </div>
     </Container>

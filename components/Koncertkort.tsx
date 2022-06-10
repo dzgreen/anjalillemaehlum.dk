@@ -4,7 +4,7 @@ export default function Koncertkort(props) {
       <div className="w-full md:flex">
         <div className="md:shrink-0">
           <img
-            className="h-48 w-full object-cover md:h-full md:w-48"
+            className="h-48 w-full object-cover object-top md:h-full md:w-48"
             src={props.img}
             alt="water"
           ></img>

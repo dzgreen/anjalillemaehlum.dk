@@ -83,10 +83,12 @@ export default function Container(props) {
             <div className="ml-[-0.60rem]">
               <MobileMenu />
               <NavItem href="/" text="Hjem" />
+
               {/* <NavItem href="/blog" text="Blog" /> */}
               <NavItem href="/lyt" text="Lyt" />
               <NavItem href="/koncertkalender" text="Koncertkalender" />
               <NavItem href="/undervisning" text="Undervisning" />
+              <NavItem href="/presse" text="Presse" />
               <NavItem href="/kontakt" text="Kontakt" />
             </div>
           </nav>
