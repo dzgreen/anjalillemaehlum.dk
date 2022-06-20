@@ -59,6 +59,10 @@ export default function Lyt({ lyt }) {
           ></iframe>
           <iframe
             className="aspect-video rounded-md"
+            src="https://www.youtube-nocookie.com/embed/JB7AcTEzFMc?rel=0"
+          ></iframe>
+          <iframe
+            className="aspect-video rounded-md"
             src="https://www.youtube-nocookie.com/embed/QGD1x1D1Ano?rel=0"
           ></iframe>
         </div>
