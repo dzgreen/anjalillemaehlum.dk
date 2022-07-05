@@ -11,8 +11,8 @@ export default function Koncertkalender({ koncertkalender }) {
         <div className="flex flex-col space-y-8">
           <Koncertkort
             title="Solo cellokoncert"
-            sted="Følger senere"
-            tid="Følger senere"
+            sted="Østermarie Kirke"
+            tid="Lørdag 17. September kl 20:00-21:00"
             entre={
               <a
                 href="https://bornholmskulturuge.dk/om-kulturugen/"
