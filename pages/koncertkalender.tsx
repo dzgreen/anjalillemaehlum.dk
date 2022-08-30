@@ -13,9 +13,24 @@ export default function Koncertkalender({ koncertkalender }) {
         </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
+            title="Koncertcafé med Cecilie Rau"
+            sted="Sct. Pauls Kirke, Sct. Pauls Kirkeplads, 8000 Aarhus C"
+            tid="Lørdag 10. september kl. 16.00. Fri kaffe/the med tilbehør fra kl. 15.30"
+            entre={
+              <a
+                href="https://www.sctpauls.dk/nyhed/koncertcafe-loerdage-i-september-28333"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Sct. Pauls Kirke
+              </a>
+            }
+            img="/cecilie_rau.jpg"
+          ></Koncertkort>
+          <Koncertkort
             title="Solo cellokoncert"
             sted="Østermarie Kirke"
-            tid="Lørdag 17. September kl 20:00-21:00"
+            tid="Lørdag 17. September kl. 20:00-21:00"
             entre={
               <a
                 href="https://bornholmskulturuge.dk/program-2022/solo-cello-koncert/"
@@ -30,7 +45,7 @@ export default function Koncertkalender({ koncertkalender }) {
           <Koncertkort
             title="LYDBILLEDER - En familieworkshop"
             sted="MUTE Studio, Gaden 21, Årsdale 3740 Svaneke"
-            tid="Søndag 18. september kl 13.30-15.30"
+            tid="Søndag 18. september kl. 13.30-15.30"
             entre={
               <a
                 href="https://bornholmskulturuge.dk/program-2022/lydbilleder/"
@@ -45,7 +60,7 @@ export default function Koncertkalender({ koncertkalender }) {
           <Koncertkort
             title="Trio Solkyst"
             sted="Aakirke, Åkirkeby"
-            tid="Mandag 19. september kl 19.30-21.00"
+            tid="Mandag 19. september kl. 19.30-21.00"
             entre={
               <a
                 href="https://bornholmskulturuge.dk/program-2022/trio-solkyst/"
@@ -60,7 +75,7 @@ export default function Koncertkalender({ koncertkalender }) {
           <Koncertkort
             title="FINAL CONCERT of Bornholm-Saaremaa Culture Festival"
             sted="Skt. Nicolai Kirke, Kirkepladsen 20, 3700 Rønne"
-            tid="Søndag 25. september kl 14.00-15.30"
+            tid="Søndag 25. september kl. 14.00-15.30"
             entre={
               <a
                 href="https://bornholmskulturuge.dk/program-2022/final-concert-of-bornholm-saaremaa-culture-festival/"
@@ -80,7 +95,7 @@ export default function Koncertkalender({ koncertkalender }) {
           <Koncertkort
             title="Dreamers cirkus og DR‘s børnekor fortolker danske børnesange"
             sted="DR Byen"
-            tid="Søndag 5. Juni kl 15:00"
+            tid="Søndag 5. Juni kl. 15:00"
             entre={
               <a
                 href="https://drkoncerthuset.dk/event/langt-ud-i-skoven/"
