@@ -1,6 +1,6 @@
 export default function Koncertkort(props) {
   return (
-    <div className="w-full max-w-3xl overflow-hidden rounded-xl bg-white shadow-md">
+    <div className="w-full max-w-3xl overflow-hidden rounded-sm bg-white shadow-md">
       <div className="w-full md:flex">
         <div className="md:shrink-0">
           <img
@@ -35,7 +35,7 @@ export default function Koncertkort(props) {
                 <div className="font-medium  md:w-1/5 md:font-normal">
                   Læs mere:
                 </div>
-                <div className="text-sm md:w-4/5 md:text-base">
+                <div className="text-sm underline md:w-4/5 md:text-base">
                   {props.entre}
                 </div>
               </div>
