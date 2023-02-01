@@ -11,7 +11,17 @@ export default function Koncertkalender({ koncertkalender }) {
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
           Kommende koncerter
         </h2>
-        <div className="flex flex-col space-y-8 pb-8">
+       
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          
+          
+          Tidligere koncerter
+
+
+
+        </h2>
+
+         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Koncertcafé med Cecilie Rau"
             sted="Sct. Pauls Kirke, Sct. Pauls Kirkeplads, 8000 Aarhus C"
@@ -88,12 +98,9 @@ export default function Koncertkalender({ koncertkalender }) {
             img="/kammerorkester.webp"
           ></Koncertkort>
         </div>
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
-        </h2>
         <div className="flex flex-col space-y-8">
           <Koncertkort
-            title="Dreamers cirkus og DR‘s børnekor fortolker danske børnesange"
+            title="Dreamers cirkus og DR&#39;s børnekor fortolker danske børnesange"
             sted="DR Byen"
             tid="Søndag 5. Juni kl. 15:00"
             entre={
