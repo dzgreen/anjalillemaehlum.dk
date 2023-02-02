@@ -30,80 +30,78 @@ export default function MobileMenu() {
     }
   }, [])
 
-  return (
-    <>
-      <button
-        className={cn(styles.burger, "visible md:hidden")}
-        aria-label="Toggle menu"
-        type="button"
-        onClick={toggleMenu}
+  return <>
+    <button
+      className={cn(styles.burger, "visible md:hidden")}
+      aria-label="Toggle menu"
+      type="button"
+      onClick={toggleMenu}
+    >
+      <MenuIcon data-hide={isMenuOpen} />
+      <CrossIcon data-hide={!isMenuOpen} />
+    </button>
+    {isMenuMounted && (
+      <ul
+        className={cn(
+          styles.menu,
+          "absolute flex flex-col bg-gray-50 ",
+          isMenuRendered && styles.menuRendered
+        )}
       >
-        <MenuIcon data-hide={isMenuOpen} />
-        <CrossIcon data-hide={!isMenuOpen} />
-      </button>
-      {isMenuMounted && (
-        <ul
-          className={cn(
-            styles.menu,
-            "absolute flex flex-col bg-gray-50 ",
-            isMenuRendered && styles.menuRendered
-          )}
+        <li
+          className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
+          style={{ transitionDelay: "150ms" }}
         >
-          <li
-            className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
-            style={{ transitionDelay: "150ms" }}
-          >
-            <Link href="/">
-              <a className="flex w-auto pb-4">Hjem</a>
-            </Link>
-          </li>
+          <Link href="/" className="flex w-auto pb-4">
+            Hjem
+          </Link>
+        </li>
 
-          <li
-            className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
-            style={{ transitionDelay: "250ms" }}
-          >
-            <Link href="/lyt">
-              <a className="flex w-auto pb-4">Lyt</a>
-            </Link>
-          </li>
+        <li
+          className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
+          style={{ transitionDelay: "250ms" }}
+        >
+          <Link href="/lyt" className="flex w-auto pb-4">
+            Lyt
+          </Link>
+        </li>
 
-          <li
-            className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
-            style={{ transitionDelay: "250ms" }}
-          >
-            <Link href="/koncertkalender">
-              <a className="flex w-auto pb-4">Koncertkalender</a>
-            </Link>
-          </li>
+        <li
+          className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
+          style={{ transitionDelay: "250ms" }}
+        >
+          <Link href="/koncertkalender" className="flex w-auto pb-4">
+            Koncertkalender
+          </Link>
+        </li>
 
-          <li
-            className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
-            style={{ transitionDelay: "250ms" }}
-          >
-            <Link href="/undervisning">
-              <a className="flex w-auto pb-4">Undervisning</a>
-            </Link>
-          </li>
-          <li
-            className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
-            style={{ transitionDelay: "250ms" }}
-          >
-            <Link href="/presse">
-              <a className="flex w-auto pb-4">Presse</a>
-            </Link>
-          </li>
-          <li
-            className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
-            style={{ transitionDelay: "250ms" }}
-          >
-            <Link href="/kontakt">
-              <a className="flex w-auto pb-4">Kontakt</a>
-            </Link>
-          </li>
-        </ul>
-      )}
-    </>
-  )
+        <li
+          className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
+          style={{ transitionDelay: "250ms" }}
+        >
+          <Link href="/undervisning" className="flex w-auto pb-4">
+            Undervisning
+          </Link>
+        </li>
+        <li
+          className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
+          style={{ transitionDelay: "250ms" }}
+        >
+          <Link href="/presse" className="flex w-auto pb-4">
+            Presse
+          </Link>
+        </li>
+        <li
+          className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
+          style={{ transitionDelay: "250ms" }}
+        >
+          <Link href="/kontakt" className="flex w-auto pb-4">
+            Kontakt
+          </Link>
+        </li>
+      </ul>
+    )}
+  </>;
 }
 
 function MenuIcon(props: JSX.IntrinsicElements["svg"]) {

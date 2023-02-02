@@ -10,12 +10,14 @@ export default function NotFound() {
           404 – Siden findes ikke
         </h1>
         <p className="mb-8 text-gray-600 ">Siden findes ikke.</p>
-        <Link href="/">
-          <a className="mx-auto w-64 rounded-md bg-gray-200 p-1 text-center font-bold text-black sm:p-4">
+        <Link
+          href="/"
+          className="mx-auto w-64 rounded-md bg-gray-200 p-1 text-center font-bold text-black sm:p-4">
+          
             Return Home
-          </a>
+          
         </Link>
       </div>
     </Container>
-  )
+  );
 }

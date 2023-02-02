@@ -8,14 +8,14 @@ export default function Footer() {
         <hr className="border-1 w-full border-gray-200" />
         <div className="w-full max-w-3xl py-2">
           <div className="flex h-4 justify-center space-x-4 text-sm">
-            <Link href="/privacy">
-              <a className="text-gray-600 transition hover:underline ">
+            <Link href="/privacy" className="text-gray-600 transition hover:underline ">
+              
                 Privatlivspolitik
-              </a>
+              
             </Link>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
