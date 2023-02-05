@@ -11,17 +11,12 @@ export default function Koncertkalender({ koncertkalender }) {
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
           Kommende koncerter
         </h2>
-       
+
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          
-          
           Tidligere koncerter
-
-
-
         </h2>
 
-         <div className="flex flex-col space-y-8 pb-8">
+        <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Koncertcafé med Cecilie Rau"
             sted="Sct. Pauls Kirke, Sct. Pauls Kirkeplads, 8000 Aarhus C"
@@ -35,7 +30,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 Sct. Pauls Kirke
               </a>
             }
-            img="/cecilie_rau.jpg"
+            img="/cecilie.jpg"
           ></Koncertkort>
           <Koncertkort
             title="Solo cellokoncert"

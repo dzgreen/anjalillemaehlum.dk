@@ -54,7 +54,6 @@ export default function Om({ om }) {
               src={test}
               alt="Picture of the author"
               className="rounded-md"
-              priority
             />
           </div>
           <div>
@@ -62,7 +61,6 @@ export default function Om({ om }) {
               src={test2}
               alt="Picture of the author"
               className="rounded-md"
-              priority
             />
           </div>
         </div>

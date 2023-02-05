@@ -1,13 +1,17 @@
+import Image from "next/image"
+
 export default function Koncertkort(props) {
   return (
     <div className="w-full max-w-3xl overflow-hidden rounded-sm bg-white shadow-md">
       <div className="w-full md:flex">
         <div className="md:shrink-0">
-          <img
+          <Image
             className="h-48 w-full object-cover object-top md:h-full md:w-48"
             src={props.img}
-            alt="water"
-          ></img>
+            alt="Cecilie Rau"
+            width={500}
+            height={500}
+          />
         </div>
         <div className="w-full p-4">
           <div className="text-sm font-semibold uppercase tracking-wide text-green-800">
