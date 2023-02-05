@@ -19,8 +19,7 @@
     "next-themes": "0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-obfuscate": "3.6.8",
-    "use-delayed-render": "0.0.7"
+    "react-obfuscate": "3.6.8"
   },
   "devDependencies": {
     "@types/node": "18.11.18",
