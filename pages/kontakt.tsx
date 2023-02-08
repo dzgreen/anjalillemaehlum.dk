@@ -1,8 +1,7 @@
 import Container from "../components/Container"
 import Obfuscate from "react-obfuscate"
 import Image from "next/image"
-// import kontakt from "../public/kontakt.webp"
-import test from "../public/test.jpg"
+import kontakt from "../public/kontakt.webp"
 
 export default function Kontakt({ contakt }) {
   return (
@@ -58,7 +57,7 @@ export default function Kontakt({ contakt }) {
         </div>
         <div className="">
           <Image
-            src={test}
+            src={kontakt}
             alt="Picture of the author"
             className="rounded-md"
             priority
