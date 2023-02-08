@@ -8,7 +8,7 @@ export default function Koncertkort(props) {
           <Image
             className="h-48 w-full object-cover object-top md:h-full md:w-48"
             src={props.img}
-            alt="Cecilie Rau"
+            alt=""
             width={500}
             height={500}
           />

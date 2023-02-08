@@ -1,7 +1,5 @@
 import Container from "../components/Container"
 import Image from "next/image"
-import anjapresse from "../public/anjapresse.jpg"
-import anjapresse2 from "../public/anjapresse2.jpg"
 
 export default function Om({ om }) {
   return (
@@ -51,16 +49,20 @@ export default function Om({ om }) {
         <div className="space-y-4">
           <div>
             <Image
-              src={anjapresse}
-              alt="Picture of the author"
+              src={`/images/anjapresse.webp`}
+              alt="Anja med cello"
               className="rounded-md"
+              height={512}
+              width={768}
             />
           </div>
           <div>
             <Image
-              src={anjapresse2}
-              alt="Picture of the author"
+              src={`/images/anjapresse2.webp`}
+              alt="Anja med cello"
               className="rounded-md"
+              height={512}
+              width={768}
             />
           </div>
         </div>

@@ -1,6 +1,5 @@
 import Container from "../components/Container"
 import Image from "next/image"
-import bganja from "../public/bganja1.jpg"
 
 export default function Home({ home }) {
   return (
@@ -14,10 +13,11 @@ export default function Home({ home }) {
         </h2>
         <div className="w-full max-w-3xl">
           <Image
-            src={bganja}
+            src={`/images/bganja1.webp`}
             alt="Picture of the author"
             className="rounded-md"
-            priority
+            width={768}
+            height={512}
           />
         </div>
         <div className="prose max-w-none leading-6 text-gray-600 ">

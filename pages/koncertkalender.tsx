@@ -30,7 +30,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 Sct. Pauls Kirke
               </a>
             }
-            img="/cecilie.jpg"
+            img={`/images/cecilie.webp`}
           ></Koncertkort>
           <Koncertkort
             title="Solo cellokoncert"
@@ -45,7 +45,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 Bornholms Kulturuge
               </a>
             }
-            img="/kulturuge.jpg"
+            img={`/images/kulturuge.webp`}
           ></Koncertkort>
           <Koncertkort
             title="LYDBILLEDER - En familieworkshop"
@@ -60,7 +60,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 Bornholms Kulturuge
               </a>
             }
-            img="/lydbilleder.jpg"
+            img={`/images/lydbilleder.webp`}
           ></Koncertkort>
           <Koncertkort
             title="Trio Solkyst"
@@ -75,7 +75,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 Bornholms Kulturuge
               </a>
             }
-            img="/triosolkyst.jpg"
+            img={`/images/triosolkyst.webp`}
           ></Koncertkort>
           <Koncertkort
             title="FINAL CONCERT of Bornholm-Saaremaa Culture Festival"
@@ -90,7 +90,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 Bornholms Kulturuge
               </a>
             }
-            img="/kammerorkester.webp"
+            img={`/images/kammerorkester.webp`}
           ></Koncertkort>
         </div>
         <div className="flex flex-col space-y-8">
@@ -107,7 +107,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 DR koncerthuset
               </a>
             }
-            img="/dreamers.jpg"
+            img={`/images/dreamers.webp`}
           ></Koncertkort>
         </div>
       </div>
