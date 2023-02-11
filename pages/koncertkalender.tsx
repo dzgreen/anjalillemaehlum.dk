@@ -12,6 +12,15 @@ export default function Koncertkalender({ koncertkalender }) {
           Kommende koncerter
         </h2>
 
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Feminine cellotoner"
+            sted="Hasle Kirke, Kirkegade 4A, 3790 Hasle"
+            tid="28. April kl. 19.30"
+            entre="Værker af Bl.a. Andrea Cassarubios, Rena Esmail og Anja Lillemæhlum inspireret af Hildegard von Bingen"
+            img={`/images/femininecellotoner.webp`}
+          ></Koncertkort>
+        </div>
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
           Tidligere koncerter
         </h2>
@@ -26,6 +35,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 href="https://www.sctpauls.dk/nyhed/koncertcafe-loerdage-i-september-28333"
                 target="_blank"
                 rel="noreferrer"
+                className="underline"
               >
                 Sct. Pauls Kirke
               </a>
@@ -41,6 +51,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 href="https://bornholmskulturuge.dk/program-2022/solo-cello-koncert/"
                 target="_blank"
                 rel="noreferrer"
+                className="underline"
               >
                 Bornholms Kulturuge
               </a>
@@ -56,6 +67,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 href="https://bornholmskulturuge.dk/program-2022/lydbilleder/"
                 target="_blank"
                 rel="noreferrer"
+                className="underline"
               >
                 Bornholms Kulturuge
               </a>
@@ -71,6 +83,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 href="https://bornholmskulturuge.dk/program-2022/trio-solkyst/"
                 target="_blank"
                 rel="noreferrer"
+                className="underline"
               >
                 Bornholms Kulturuge
               </a>
@@ -86,6 +99,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 href="https://bornholmskulturuge.dk/program-2022/final-concert-of-bornholm-saaremaa-culture-festival/"
                 target="_blank"
                 rel="noreferrer"
+                className="underline"
               >
                 Bornholms Kulturuge
               </a>
@@ -103,6 +117,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 href="https://drkoncerthuset.dk/event/langt-ud-i-skoven/"
                 target="_blank"
                 rel="noreferrer"
+                className="underline"
               >
                 DR koncerthuset
               </a>

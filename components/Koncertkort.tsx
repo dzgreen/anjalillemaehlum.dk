@@ -39,7 +39,7 @@ export default function Koncertkort(props) {
                 <div className="font-medium  md:w-1/5 md:font-normal">
                   Læs mere:
                 </div>
-                <div className="text-sm underline md:w-4/5 md:text-base">
+                <div className="text-sm md:w-4/5 md:text-base">
                   {props.entre}
                 </div>
               </div>
