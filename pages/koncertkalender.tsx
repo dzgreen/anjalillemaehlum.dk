@@ -16,7 +16,7 @@ export default function Koncertkalender({ koncertkalender }) {
           <Koncertkort
             title="Feminine cellotoner"
             sted="Hasle Kirke, Kirkegade 4A, 3790 Hasle"
-            tid="28. April kl. 19.30"
+            tid="21. April kl. 19.30"
             entre="Værker af Bl.a. Andrea Cassarubios, Rena Esmail og Anja Lillemæhlum inspireret af Hildegard von Bingen"
             img={`/images/femininecellotoner.webp`}
           ></Koncertkort>
