@@ -14,6 +14,29 @@ export default function Koncertkalender({ koncertkalender }) {
 
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
+            title="Duo Tubi Corde"
+            sted="Aakirke, Åkirkeby"
+            tid="17. september kl. 15.30"
+            entre={
+              <a
+                href="https://billetto.dk/e/duo-tubicorde-originalmusik-for-orgel-og-cello-billetter-841874"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+               Bl.a. Musique du Soir af Peteris Vasks, Prière af Saint-Saëns samt Sonate for cello og orgel af Marcel Dupré.
+              </a>
+            }
+            img={`/images/duo.avif`}
+          ></Koncertkort>
+        </div>
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere koncerter
+
+ </h2>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
             title="Feminine cellotoner"
             sted="Hasle Kirke, Kirkegade 4A, 3790 Hasle"
             tid="21. April kl. 19.30"
@@ -22,7 +45,7 @@ export default function Koncertkalender({ koncertkalender }) {
           ></Koncertkort>
         </div>
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
+
         </h2>
 
         <div className="flex flex-col space-y-8 pb-8">
