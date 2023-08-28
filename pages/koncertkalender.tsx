@@ -15,6 +15,25 @@ export default function Koncertkalender({ koncertkalender }) {
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Duo Tubi Corde"
+            sted="Herlufsholm Kirke"
+            tid="10. september kl. 15.00"
+            entre={
+              <a
+                href="https://www.herlufsholmkirke.dk/begivenhed/10-9-2023-koncert-sang-violin-og-orgel-36033"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+              Læs mere...
+              </a>
+            }
+            img={`/images/karsten.webp`}
+          ></Koncertkort>
+        </div>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Duo Tubi Corde"
             sted="Aakirke, Åkirkeby"
             tid="17. september kl. 15.30"
             entre={
