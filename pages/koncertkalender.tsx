@@ -11,7 +11,58 @@ export default function Koncertkalender({ koncertkalender }) {
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
           Kommende koncerter
         </h2>
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Kyndelmissekoncert med Herlufs Vokaler"
+            sted="Kirketorvet 14A, 4760 Vordingborg (Vordingborg Kirke)"
+            tid="1. februar kl. 19.00"
+            entre={
+              <a
+                href="https://landing.churchdesk.com/da/e/24384568/koncert-med-herlufs-vokaler"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/herlufsvokaler.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
 
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Nordic jazztrio"
+            sted={
+              <a
+                href="https://kukihasle.dk/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                KuK i Hasle
+              </a>
+            }
+            tid="29. februar kl 19.30, Hasle"
+            entre={
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/anjamono.webp`}
+            showLaesMere={false}
+          ></Koncertkort>
+        </div>
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere koncerter
+
+        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Duo Tubi Corde"
@@ -24,7 +75,7 @@ export default function Koncertkalender({ koncertkalender }) {
                 rel="noreferrer"
                 className="underline"
               >
-              Læs mere...
+                Læs mere...
               </a>
             }
             img={`/images/karsten.webp`}
@@ -43,17 +94,12 @@ export default function Koncertkalender({ koncertkalender }) {
                 rel="noreferrer"
                 className="underline"
               >
-               Bl.a. Musique du Soir af Peteris Vasks, Prière af Saint-Saëns samt Sonate for cello og orgel af Marcel Dupré.
+                Bl.a. Musique du Soir af Peteris Vasks, Prière af Saint-Saëns samt Sonate for cello og orgel af Marcel Dupré.
               </a>
             }
             img={`/images/duo.avif`}
           ></Koncertkort>
         </div>
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
-
- </h2>
-
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Feminine cellotoner"

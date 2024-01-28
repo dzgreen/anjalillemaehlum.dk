@@ -21,32 +21,29 @@ export default function Koncertkort(props) {
             {props.title}
           </div>
           <div className="py-6">
-            <div className="space-y-1  text-gray-600 ">
+            <div className="space-y-1 text-gray-600">
               <div className="flex flex-col md:flex-row">
-                <div className="font-medium  md:w-1/5 md:font-normal">
-                  Sted:
-                </div>
-
-                <div className="text-sm md:w-4/5 md:text-base">
-                  {props.sted}
-                </div>
+                <div className="font-medium md:w-1/5 md:font-normal">Sted:</div>
+                <div className="text-sm md:w-4/5 md:text-base">{props.sted}</div>
               </div>
               <div className="flex flex-col md:flex-row">
-                <div className="font-medium  md:w-1/5 md:font-normal">Tid:</div>
+                <div className="font-medium md:w-1/5 md:font-normal">Tid:</div>
                 <div className="text-sm md:w-4/5 md:text-base">{props.tid}</div>
               </div>
-              <div className="flex flex-col md:flex-row">
-                <div className="font-medium  md:w-1/5 md:font-normal">
-                  Læs mere:
+              {props.showLaesMere && (
+                <div className="flex flex-col md:flex-row">
+                  <div className="font-medium md:w-1/5 md:font-normal">
+                    Læs mere:
+                  </div>
+                  <div className="text-sm md:w-4/5 md:text-base">
+                    {props.entre}
+                  </div>
                 </div>
-                <div className="text-sm md:w-4/5 md:text-base">
-                  {props.entre}
-                </div>
-              </div>
+              )}
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
