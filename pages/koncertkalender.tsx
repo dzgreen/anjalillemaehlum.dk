@@ -11,6 +11,52 @@ export default function Koncertkalender({ koncertkalender }) {
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
           Kommende koncerter
         </h2>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Feminine Cellotoner"
+            sted="Nylars Kirke"
+            tid="Tirsdag 2. Juli kl 19.30"
+            entre={
+              <a
+                href="https://www.nylarskirke.dk/2024/06/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/feminine.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere koncerter
+
+        </h2>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Værker af Helweg, Kristina Arakelyan og Narverud"
+            sted="Rønnebæk Kirke"
+            tid="19. juni kl. 19.00"
+            entre={
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/bganja1.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Kyndelmissekoncert med Herlufs Vokaler"
@@ -59,10 +105,7 @@ export default function Koncertkalender({ koncertkalender }) {
             showLaesMere={false}
           ></Koncertkort>
         </div>
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
 
-        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Duo Tubi Corde"
