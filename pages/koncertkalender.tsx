@@ -14,9 +14,44 @@ export default function Koncertkalender({ koncertkalender }) {
 
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
+            title="Feminine Cellotoner i MUTE studio"
+            sted="MUTE studio, Gaden 21 Årsdale, 3740 Svaneke"
+            tid="Tirsdag 16. Juli kl. 19.30"
+            entre={"Musik for solo cello af kvindelige komponister. Værker af Andrea Cassaribios, Reena Esmail og Anja Lillemæhlum. Malerier og Keramik: Tilde Lerche Engstrøm."}
+            img={`/images/fem_mute.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Duo TubiCorde"
+            sted="Nysted Orgelmuseum, Adelgade 30, 4880 Nysted"
+            tid="Lørdag 20. Juli kl. 19.30"
+            entre={
+              <a
+                href="https://orgelmuseum.dk/programs/orgelfestival-2024.html#DuoTubiCorde"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Værker af bl.a.: Vasks, Dupré, Rheinberger, Jongen
+              </a>
+            }
+            img={`/images/tubicorde.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere koncerter
+
+        </h2>
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
             title="Feminine Cellotoner"
             sted="Nylars Kirke"
-            tid="Tirsdag 2. Juli kl 19.30"
+            tid="Tirsdag 2. Juli kl. 19.30"
             entre={
               <a
                 href="https://www.nylarskirke.dk/2024/06/"
@@ -31,12 +66,6 @@ export default function Koncertkalender({ koncertkalender }) {
             showLaesMere={true}
           ></Koncertkort>
         </div>
-
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
-
-        </h2>
-
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Værker af Helweg, Kristina Arakelyan og Narverud"
@@ -49,7 +78,6 @@ export default function Koncertkalender({ koncertkalender }) {
                 rel="noreferrer"
                 className="underline"
               >
-                Læs mere...
               </a>
             }
             img={`/images/bganja1.webp`}

@@ -33,7 +33,7 @@ export default function Koncertkort(props) {
               {props.showLaesMere && (
                 <div className="flex flex-col md:flex-row">
                   <div className="font-medium md:w-1/5 md:font-normal">
-                    Læs mere:
+
                   </div>
                   <div className="text-sm md:w-4/5 md:text-base">
                     {props.entre}
