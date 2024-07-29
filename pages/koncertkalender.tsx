@@ -43,7 +43,7 @@ export default function Koncertkalender({ koncertkalender }) {
             sted="MUTE studio, Gaden 21 Årsdale, 3740 Svaneke"
             tid="Tirsdag 16. Juli kl. 19.30"
             entre={"Musik for solo cello af kvindelige komponister. Værker af Andrea Cassaribios, Reena Esmail og Anja Lillemæhlum. Malerier og Keramik: Tilde Lerche Engstrøm."}
-            img={`/images/fem_mute.webp`}
+            img={`/images/kulturuge.webp`}
             showLaesMere={true}
           ></Koncertkort>
         </div>
