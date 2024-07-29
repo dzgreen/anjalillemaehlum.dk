@@ -14,6 +14,31 @@ export default function Koncertkalender({ koncertkalender }) {
 
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
+            title="Feminine cellotoner"
+            sted="Svaneke kirke, Kirkepladsen 2, Svaneke"
+            tid="Torsdag 01. August kl. 19.30"
+            entre={
+              <a
+                href="https://www.kultunaut.dk/perl/arrmore/type-nynaut/UK?ArrNr=17864796"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Værker af bl.a.: Andrea Cassarrubios, Reena Esmail og Anja Lillemæhlum
+              </a>
+            }
+            img={`/images/kulturuge.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere koncerter
+
+        </h2>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
             title="Feminine Cellotoner i MUTE studio"
             sted="MUTE studio, Gaden 21 Årsdale, 3740 Svaneke"
             tid="Tirsdag 16. Juli kl. 19.30"
@@ -43,10 +68,6 @@ export default function Koncertkalender({ koncertkalender }) {
           ></Koncertkort>
         </div>
 
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
-
-        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Feminine Cellotoner"
