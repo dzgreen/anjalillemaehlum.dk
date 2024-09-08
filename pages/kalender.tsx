@@ -1,17 +1,60 @@
 import Container from "components/Container"
 import Koncertkort from "components/Koncertkort"
 
-export default function Koncertkalender({ koncertkalender }) {
+export default function Kalender({ kalender }) {
   return (
-    <Container title="Koncertkalender">
+    <Container title="Kalender">
       <div className="mx-auto mb-16 flex w-full max-w-3xl flex-col">
         <h1 className="pb-8 text-3xl font-bold tracking-tight text-black  md:text-5xl">
-          Koncertkalender
+          Kalender
         </h1>
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Kommende koncerter
+          Kommende begivenheder
         </h2>
 
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Kvindeliv - En poetisk danseforestilling"
+            sted="Grønbechs Gård 4, 3790 Hasle"
+            tid="14. og 15. februar kl 19.00"
+            entre={
+              <a
+                href="https://billetto.dk/e/kvindeliv-billetter-1161441?utm_source=billetto+advertising&utm_medium=billetto&utm_campaign=find&utm_content=3DK"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/kvindeliv.jpg`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Duo To - klassisk og folklore for cello og guitar"
+            sted="Hasle Kirke, Kirkegade 4A, 3790, Hasle"
+            tid="27. marts 2025 19:30 - 21:30"
+            entre={
+              <a
+                href="https://bornholm.info/event/duo-to-klassisk-og-folklore-for-cello-og-guitar/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/duoto.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere begivenheder
+
+        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Literaturperformance med Siff Mosin på Literaturens folkemøde"
@@ -64,11 +107,6 @@ export default function Koncertkalender({ koncertkalender }) {
         </div>
 
 
-
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
-
-        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Feminine Cellotoner i MUTE studio"

@@ -36,9 +36,21 @@ export default function Lyt({ lyt }) {
             </a>
             .
           </p>
+          <p>Nyere musik for kor og cello.</p>
         </div>
 
+        
+
+    
         <div className="flex w-full flex-col space-y-4">
+        <iframe
+            className="aspect-video rounded-md"
+            src="https://www.youtube-nocookie.com/embed/HhGan2q7JCM?rel=0"
+          ></iframe>
+        <iframe
+            className="aspect-video rounded-md"
+            src="https://www.youtube-nocookie.com/embed/gSniaI3bDFI?rel=0"
+          ></iframe>
           <iframe
             className="aspect-video rounded-md"
             src="https://www.youtube-nocookie.com/embed/6twG29znGMs?rel=0"

@@ -70,8 +70,8 @@ export default function MobileMenu() {
           className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
           style={{ transitionDelay: "250ms" }}
         >
-          <Link href="/koncertkalender" className="flex w-auto pb-4">
-            Koncertkalender
+          <Link href="/kalender" className="flex w-auto pb-4">
+            Kalender
           </Link>
         </li>
 
