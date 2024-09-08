@@ -14,6 +14,63 @@ export default function Koncertkalender({ koncertkalender }) {
 
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
+            title="Literaturperformance med Siff Mosin på Literaturens folkemøde"
+            sted="Møbelfabrikken, Gl. Rønnevej 17, 3730 Nexø"
+            tid="Torsdag 12. september kl. 20.00-21.00"
+            entre={
+              <a
+                href="https://www.andersennexoe.dk/da/andersen-nexoe/litteraturens-folkemoede?_ga=2.142036594.1146317493.1725565724-2027723662.1716464391"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/siff.jpg`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Efterårskoncert med vokalensemblet Herlufs vokaler"
+            sted="Kirkepladsen 3, 4800 Nykøbing Falster"
+            tid="Søndag 15. september 2024, kl. 16.00"
+            entre={
+              <a
+                href="https://www.nykfsogn.dk/b/koncert-31922996?utm_source=Widget+on+www.nykfsogn.dk%2Fkalender%2Fkoncerter&utm_medium=Widgets"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/tubicorde.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
+            title="Duo to"
+            sted="Hasle Kirke, Kirkegade 4A, 3790, Hasle"
+            tid="19. September kl. 19.30-20.30"
+            entre={""}
+            img={`/images/duoto.webp`}
+            showLaesMere={false}
+          ></Koncertkort>
+        </div>
+
+
+
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere koncerter
+
+        </h2>
+        <div className="flex flex-col space-y-8 pb-8">
+          <Koncertkort
             title="Feminine Cellotoner i MUTE studio"
             sted="MUTE studio, Gaden 21 Årsdale, 3740 Svaneke"
             tid="Tirsdag 16. Juli kl. 19.30"
@@ -42,11 +99,6 @@ export default function Koncertkalender({ koncertkalender }) {
             showLaesMere={true}
           ></Koncertkort>
         </div>
-
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere koncerter
-
-        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Feminine Cellotoner"
