@@ -39,15 +39,15 @@ export default function Lyt({ lyt }) {
           <p>Nyere musik for kor og cello.</p>
         </div>
 
-        
 
-    
+
+
         <div className="flex w-full flex-col space-y-4">
-        <iframe
+          <iframe
             className="aspect-video rounded-md"
             src="https://www.youtube-nocookie.com/embed/HhGan2q7JCM?rel=0"
           ></iframe>
-        <iframe
+          <iframe
             className="aspect-video rounded-md"
             src="https://www.youtube-nocookie.com/embed/gSniaI3bDFI?rel=0"
           ></iframe>
@@ -71,7 +71,7 @@ export default function Lyt({ lyt }) {
           ></iframe>
           <iframe
             className="aspect-video rounded-md"
-            src="https://www.youtube-nocookie.com/embed/JB7AcTEzFMc?rel=0"
+            src="https://www.youtube-nocookie.com/embed/qtPtUBJDCVw?rel=0"
           ></iframe>
           <iframe
             className="aspect-video rounded-md"
