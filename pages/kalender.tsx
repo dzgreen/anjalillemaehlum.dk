@@ -13,6 +13,149 @@ export default function Kalender({ kalender }) {
         </h2>
 
         <div className="flex flex-col space-y-8 pb-8">
+
+          {/* 2) Onsdag 17. september */}
+          <Koncertkort
+            title="Duo Gaudia – Klassisk musik fra de varmere himmelstrøg"
+            sted="Kirkegade 4A, 3790 Hasle, Denmark"
+            tid="Onsdag 17. september kl. 20.00–21.00"
+            entre={
+              <a
+                href="https://billetto.dk/e/duo-gaudia-klassisk-musik-fra-de-varmere-himmelstrog-billetter-1323256?utm_source=organiser&utm_medium=share&utm_campaign=copy_link&utm_content=1323256"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/duoto.webp`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          {/* 3) Torsdag 18. september */}
+          <Koncertkort
+            title="Ensemble Baroque Pleasures i Østermarie kirke"
+            sted="Svanekevej 6, 3751 Østermarie"
+            tid="Torsdag 18. september kl. 20.00–21.00"
+            entre={
+              <a
+                href="https://bornholmskulturuge.dk/da/program/ensemble-baroque-pleasures-oestermarie-kirke/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/baroque.png`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          {/* 4) Torsdag 18. september (tidligere på dagen) */}
+          <Koncertkort
+            title="Carl Nielsen Børnekoncert med Sigurd Barrett"
+            sted="Skt. Nicolai Kirke, Kirkepladsen 20, 3700 Rønne"
+            tid="Torsdag 18. september kl. 17.00"
+            entre={
+              <a
+                href="https://www.sktnicolai.dk/b/carl-nielsen-bornekoncert-med-sigurd-barrett-36932103?utm_source=Widget+on+www.sktnicolai.dk%2Fkoncerter-og-kor%2Fkoncerter&utm_medium=Widgets"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/sigurd.jpeg`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          {/* 5) Lørdag 20. september */}
+          <Koncertkort
+            title="Ensemble Baroque Pleasures i Gudhjem kirke"
+            sted="Kirkevej 9, 3760 Gudhjem"
+            tid="Lørdag 20. september kl. 16.00–17.00"
+            entre={
+              <a
+                href="https://bornholmskulturuge.dk/da/program/ensemble-baroque-pleasures-gudhjem-kirke/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/baroque.png`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          {/* 6) Søndag 21. september */}
+          <Koncertkort
+            title="KVINDELIV – Poetisk danseperformance med nykomponeret musik for Track og Cello"
+            sted="Nygade 2, 3770 Allinge-Sandvig, Danmark"
+            tid="Søndag 21. september kl. 14.00–14.40"
+            entre={
+              <a
+                href="https://bornholmskulturuge.dk/da/program/kvindeliv/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/kvindeliv.jpg`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          {/* 7) Tirsdag 30. september */}
+          <Koncertkort
+            title="Koncertturné med Arvid Asmussen og projektet Optaget"
+            sted="Christian's Church, Frederikshaldsgade 15, 8200 Aarhus"
+            tid="Tirsdag 30. september kl. 20.00–22.00"
+            entre={
+              <a
+                href="https://www.christianskirken.dk/begivenhed/30-9-2025-lovsangskoncert-og-bogrelease-med-arvid-asmussen-63490"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/arvid.jpeg`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          {/* 8) Lørdag 11. oktober */}
+          <Koncertkort
+            title="Jubilæums koncert med udrag fra Elgars Cellokoncert"
+            sted="Skt. Nicolai Kirke, Kirkepladsen 20, 3700 Rønne"
+            tid="Lørdag 11. oktober kl. 16.00"
+            entre={
+              <a
+                href="https://www.sktnicolai.dk/b/skt-nicolai-kirkes-koncertkor-36315977?utm_source=Widget+on+www.sktnicolai.dk%2Fkoncerter-og-kor%2Fsommerkoncerter&utm_medium=Widgets"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/nicolai_kirkes_koncertkor.png`}
+            showLaesMere={true}
+          ></Koncertkort>
+        </div>
+
+
+        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+          Tidligere begivenheder
+
+        </h2>
+
+
+        <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Kvindeliv - En poetisk danseforestilling"
             sted="Grønbechs Gård 4, 3790 Hasle"
@@ -51,10 +194,7 @@ export default function Kalender({ kalender }) {
             showLaesMere={true}
           ></Koncertkort>
         </div>
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere begivenheder
 
-        </h2>
         <div className="flex flex-col space-y-8 pb-8">
           <Koncertkort
             title="Literaturperformance med Siff Mosin på Literaturens folkemøde"
