@@ -146,6 +146,18 @@ export default function Kalender({ kalender }) {
             img={`/images/nicolai_kirkes_koncertkor.png`}
             showLaesMere={true}
           ></Koncertkort>
+
+          {/* 9) Søndag 16. november */}
+          <Koncertkort
+            title="Songs of Hope – Ny klassisk musik for kor og cello"
+            sted="Herlufsholm Kirke, Næstved"
+            tid="Søndag 16. november kl. 15.00"
+            entre={null}
+            img={`/images/cover_songs_of_hope.jpg`}
+            showLaesMere={false}
+          ></Koncertkort>
+
+
         </div>
 
 
