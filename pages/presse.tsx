@@ -11,37 +11,53 @@ export default function Om({ om }) {
 
         <div className="prose mb-8 max-w-none leading-6 text-gray-600 ">
           <p className="text-gray-600 ">
-            Anja begyndte som 17 årig på konservatoriet i København. Der
-            studerede hun hos Morten Zeuthen, og spillede sidenhen også hos
-            Miroslav Petrás i Tjekkiet og hos Henrik Dam Thomsen. Anja
-            debuterede i 2015 fra solistklassen i Odense, med Niels Ullner som
-            professor og har efterfølgende spillet flere værker som solist med
-            Kammerkoret Herlufs vokaler, og kammermusikkoncerter med bl.a.
-            pianisten Tanja Zapolski og Kati Arikosky.
+            Efter at have spillet <em>Kol Nidrei</em> som solist med nogle ungdomssymfoniorkestre begyndte Anja som 17-årig på Musikkonservatoriet i København. Her studerede hun hos Morten Zeuthen og tog sideløbende timer hos bl.a. Miroslav Petráš i Tjekkiet og Henrik Dam Thomsen fra DR’s Symfoniorkester.
           </p>
+
           <p className="text-gray-600 ">
-            Anja er en meget alsidig musiker. Hun spiller bl.a solokoncerter med
-            ny kompositionsmusik og Bach, kammermusikkoncerter, har medvirket på
-            en lang række pop/world musik albums som cellist samt arbejdet med
-            forskellige dansere, skuespillere og bands. Anja har både sin gang i
-            det klassiske, folkemusikalske og skriver også selv musik.
+            Anja debuterede i 2015 fra solistklassen i Odense med Niels Ullner som professor og har efterfølgende spillet flere værker som solist med bl.a. Kammerkoret Herlufs Vokaler samt kammermusikkoncerter med bl.a. pianisten Tanja Zapolski og Kati Arikosky.
           </p>
+
           <p className="text-gray-600 ">
-            I 2022 spillede Anja, sammen med Dreamers Cirkus og DR s børnekor,
-            til koncerten, Langt ud i skoven. Støttet af Slots - og
-            Kulturstyrelsen turnerede hun og organisten Anders Forsberg Svendsen
-            med et klassisk program for orgel/klaver og cello, sensommeren 2021.
-            I 2020 udgav hun sit første Album med egne meditative kompositioner:
-            “In your peace”. Anja har arbejdet sammen med sopranen Annemette
-            Phødenfandt om nymusikprojektet Vinterum og Ensemble Dísir. Hun har
-            spillet flere forestillinger på Det Ny teater, og bl.a assisteret i
-            Radiosymfoniorkesteret og Copenhagen Phil. Af
-            musikformidligsprojekter kan nævnes LYDBILLEDER med billedkunstneren
-            Tilde Engstrøm, støttet af Statens Kunstfond.… I samarbejde med Hope
-            Now lavede hun en støttekoncert for handlede kvinder og med
-            fotografen Martin Thaulow gav hun flygtningeportrætter en lydside i
-            udstilllingen Reimagine.
+            Anja har bl.a. assisteret i Radiosymfoniorkesteret, Copenhagen Phil og Aalborg Symfoniorkester. Hun har spillet flere forestillinger på Det Ny Teater og har ledet cellogruppen samt været førstecellist i symfoniorkestret Orquesta Sinfónica del Cusco i den periode, hun boede i Peru.
           </p>
+
+          <p className="text-gray-600 ">
+            Anja er også en meget alsidig musiker. Hun spiller bl.a. solokoncerter med ny kompositionsmusik og Bach, kammermusikkoncerter, har medvirket på en lang række pop-/worldmusik-album som cellist samt arbejdet med forskellige dansere, forfattere, skuespillere og bands. Anja har både sin gang i det klassiske, det folkemusikalske og det mere jazzede – og hun skriver også selv musik.
+          </p>
+
+          <p className="text-gray-600 ">
+            I 2025 udgav Anja under sit eget label, LIMU Records, en lille samling nyere musik for kor og cello: <em>Songs of Hope</em>. Med Duo Gaudia spillede hun flere koncerter med både original musik for cello og guitar samt egne arrangementer – musik fra de varmere himmelstrøg.
+          </p>
+
+          <p className="text-gray-600 ">
+            2023–2024 bød på flere koncerter med duoen TubiCorde: originalmusik for orgel og cello med organisten Karsten Gyldendorf.
+          </p>
+
+          <p className="text-gray-600 ">
+            I 2022 spillede Anja sammen med Dreamers’ Circus og DR’s Børnekor til koncerten <em>Langt ud i skoven</em>.
+          </p>
+
+          <p className="text-gray-600 ">
+            Støttet af Slots- og Kulturstyrelsen turnerede hun og organisten Anders Forsberg Svendsen med et klassisk program for orgel/klaver og cello i sensommeren 2021.
+          </p>
+
+          <p className="text-gray-600 ">
+            I 2020 udgav hun sit første album med egne meditative kompositioner: <em>In Your Peace</em>.
+          </p>
+
+          <p className="text-gray-600 ">
+            Anja har arbejdet sammen med sopranen Annemette Phødenfandt om nymusikprojektet <em>Vinterum</em> og Ensemble Dísir.
+          </p>
+
+          <p className="text-gray-600 ">
+            Af musikformidlingsprojekter kan nævnes <em>LYDBILLEDER</em> med billedkunstneren Tilde Engstrøm, støttet af Statens Kunstfond.
+          </p>
+
+          <p className="text-gray-600 ">
+            I samarbejde med Hope Now lavede hun en støttekoncert for kvinder udsat for menneskehandel, og sammen med fotografen Martin Thaulow gav hun flygtningeportrætter en lydside i udstillingen <em>Reimagine</em>.
+          </p>
+
         </div>
         <h1 className="pb-8 text-3xl font-bold tracking-tight text-black  md:text-5xl">
           Pressebilleder

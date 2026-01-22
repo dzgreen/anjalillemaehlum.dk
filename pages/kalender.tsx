@@ -14,6 +14,45 @@ export default function Kalender({ kalender }) {
 
         <div className="flex flex-col space-y-8 pb-8">
 
+
+
+          <Koncertkort
+            title="Naturens krusninger"
+            sted="Bornholms Kunstmuseum, Otto Bruuns Plads 1, 3760 Gudhjem"
+            tid="Lørdag 11. april kl. 14.00-15.00"
+            entre={
+              <a
+                href="https://bornholms-kunstmuseum.dk/kalender/engangsarrangementer/naturens-krusninger/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Læs mere...
+              </a>
+            }
+            img={`/images/sam.jpg`}
+            showLaesMere={true}
+          ></Koncertkort>
+
+          <Koncertkort
+            title="Songs of Hope – Ny klassisk musik for kor og cello"
+            sted="Klemensker kirke, Bornholm"
+            tid="Søndag 14. juni"
+            entre={null}
+            img={`/images/cover_songs_of_hope.jpg`}
+            showLaesMere={false}
+          ></Koncertkort>
+
+        </div>
+
+
+
+
+
+        <div className="flex flex-col space-y-8 pb-8">
+
+          <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
+            Tidligere begivenheder  </h2>
           {/* 9) Søndag 16. november */}
           <Koncertkort
             title="Songs of Hope – Ny klassisk musik for kor og cello"
@@ -25,15 +64,6 @@ export default function Kalender({ kalender }) {
           ></Koncertkort>
 
 
-        </div>
-
-
-        <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Tidligere begivenheder
-
-        </h2>
-
-        <div className="flex flex-col space-y-8 pb-8">
           {/* 2) Onsdag 17. september */}
           <Koncertkort
             title="Duo Gaudia – Klassisk musik fra de varmere himmelstrøg"

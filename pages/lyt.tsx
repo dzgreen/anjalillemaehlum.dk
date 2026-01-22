@@ -12,7 +12,7 @@ export default function Lyt({ lyt }) {
           <p>
             Du kan lytte til min musik på{" "}
             <a
-              href="https://open.spotify.com/artist/2o1cMinTyNMpfjLsSYePFx?si=X3wOgWzlRt6rhuw6VY2IEQ"
+              href="https://open.spotify.com/artist/5p2vNdHmpNnHsN4IdfWaWn?si=Hb7tEFYpSWCa6JMTlgdwjg"
               target="_blank"
               rel="noreferrer"
             >
@@ -36,6 +36,11 @@ export default function Lyt({ lyt }) {
             </a>
             .
           </p>
+
+          <p>Du kan også købe <em>Songs of hope</em> på <a href="https://music.apple.com/dk/album/songs-of-hope-feat-herlufs-vokaler-ep/1838440799?l=da" target="_blank"
+            rel="noreferrer">Apple Music</a> eller <a href="https://gatewaymusicshop.dk/da/music/songs-hope-0" target="_blank"
+              rel="noreferrer">Gateway Music Shop.</a></p>
+
           <p>Nyere musik for kor og cello.</p>
         </div>
 
