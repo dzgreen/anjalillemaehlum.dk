@@ -37,11 +37,10 @@ export default function Lyt({ lyt }) {
             .
           </p>
 
-          <p>Du kan også købe <em>Songs of hope</em> på <a href="https://music.apple.com/dk/album/songs-of-hope-feat-herlufs-vokaler-ep/1838440799?l=da" target="_blank"
+          <p>Du kan også købe <em>Songs of hope</em> – nyere klassisk musik for kor og cello på <a href="https://music.apple.com/dk/album/songs-of-hope-feat-herlufs-vokaler-ep/1838440799?l=da" target="_blank"
             rel="noreferrer">Apple Music</a> eller <a href="https://gatewaymusicshop.dk/da/music/songs-hope-0" target="_blank"
               rel="noreferrer">Gateway Music Shop.</a></p>
 
-          <p>Nyere musik for kor og cello.</p>
         </div>
 
 
