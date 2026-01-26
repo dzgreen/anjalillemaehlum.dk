@@ -86,7 +86,7 @@ export default function Container(props) {
               {/* <NavItem href="/blog" text="Blog" /> */}
               <NavItem href="/lyt" text="Lyt" />
               <NavItem href="/kalender" text="Kalender" />
-              <NavItem href="/undervisning" text="Undervisning" />
+              {/* <NavItem href="/undervisning" text="Undervisning" /> */}
               <NavItem href="/presse" text="Presse" />
               <NavItem href="/kontakt" text="Kontakt" />
             </div>

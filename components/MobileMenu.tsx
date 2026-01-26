@@ -75,14 +75,14 @@ export default function MobileMenu() {
           </Link>
         </li>
 
-        <li
+        {/* <li
           className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
           style={{ transitionDelay: "250ms" }}
         >
           <Link href="/undervisning" className="flex w-auto pb-4">
             Undervisning
           </Link>
-        </li>
+        </li> */}
         <li
           className="border-b border-gray-300 text-sm font-semibold text-gray-900  "
           style={{ transitionDelay: "250ms" }}

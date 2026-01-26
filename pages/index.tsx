@@ -9,7 +9,7 @@ export default function Home({ home }) {
           Anja Lillemæhlum
         </h1>
         <h2 className="pb-4 text-lg font-semibold tracking-tight text-black md:text-xl">
-          Cellist og underviser
+          Cellist
         </h2>
         <div className="w-full max-w-3xl">
           <Image
